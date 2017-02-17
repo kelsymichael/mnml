@@ -22,20 +22,25 @@ body {
 }
 .container {
   display: flex;
+  height: 100vh;
   flex-flow: column;
-  align-items: center;
+  width: 90%;
   max-width: 960px;
+  justify-content: space-between;
   margin: 0 auto;
   border: 1px solid #000;
+  box-sizing: border-box;
 }
 header {
   background-color: #9bc2f0;
 }
 .page-content {
   background-color: #efaaff;
+  flex-grow: 1;
 }
 footer {
   background-color: #b8e986;
+  display: flex;
 }
 .highlight {
   background-color: #ffc;
