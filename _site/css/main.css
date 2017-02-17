@@ -31,16 +31,21 @@ body {
   border: 1px solid #000;
   box-sizing: border-box;
 }
-header {
+.site-header {
   background-color: #9bc2f0;
 }
 .page-content {
   background-color: #efaaff;
   flex-grow: 1;
 }
-footer {
+.site-footer {
   background-color: #b8e986;
   display: flex;
+}
+figure {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
 }
 .highlight {
   background-color: #ffc;
