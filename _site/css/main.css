@@ -19,6 +19,7 @@ figure {
 }
 body {
   box-sizing: border-box;
+  font: 1.125rem/1.618 'Helvetica' sans-serif;
 }
 .container {
   display: flex;
@@ -69,13 +70,14 @@ header {
 }
 .post-title {
   padding-top: 2em;
-  font: 2.5rem/1.45 'Helvetica' sans-serif;
-  font-weight: 600;
+  font: 3.3rem 'Helvetica' sans-serif;
+  font-weight: 900;
 }
 .post-content {
   margin-top: 50px;
-  max-width: 360px;
-  font: 18px/1.5 serif;
+  max-width: 500px;
+  font: 1.125rem/1.618 'Helvetica' sans-serif;
+  font-weight: 200;
 }
 .post-meta {
   font: 14px/1.5 'Helvetica' sans-serif;
