@@ -26,7 +26,6 @@ body {
   flex-flow: column;
   width: 90%;
   max-width: 960px;
-  justify-content: space-between;
   margin: 0 auto;
   border: 1px solid #000;
   box-sizing: border-box;
@@ -37,6 +36,10 @@ body {
 .page-content {
   background-color: #efaaff;
   flex-grow: 1;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
 }
 .site-footer {
   background-color: #b8e986;
