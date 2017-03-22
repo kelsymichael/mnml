@@ -1,9 +1,10 @@
 .container
   display: flex
-  height: 100vh
+  min-height: 100vh
   flex-flow: column
   width: 90%
   max-width: 960px
+  min-wdith: 400px
   margin: 0 auto
   border: 1px solid black
   box-sizing: border-box
@@ -13,7 +14,7 @@
   background-color #9BC2F0
 
 .page-content
-  background-color #efaaff
+  background-color #eeff88
   flex-grow 1
 
 .wrapper
@@ -28,3 +29,37 @@ figure
   max-width: 500px
   margin 0 auto
   padding 20px
+
+.trigger
+  border 1px solid black
+  
+.site-title
+  font 20px/1.5 'Helvetica' sans-serif
+  flex-grow 1
+  border 1px solid black
+
+header
+  display flex
+  justify-content flex-end
+
+.post
+  display flex
+  flex-flow column nowrap
+
+.post-title
+  padding-top 2em
+  font 2.5rem/1.45 'Helvetica' sans-serif
+  font-weight 600
+
+.post-content
+  margin-top 50px
+  max-width 360px
+  font 18px/1.5 serif
+
+.post-meta
+  font 14px/1.5 'Helvetica' sans-serif
+  
+.post-header
+  display flex
+  flex-flow column
+  align-items center
