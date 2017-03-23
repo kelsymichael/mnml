@@ -101,6 +101,9 @@ header {
   flex-flow: column;
   align-items: center;
 }
+.footer-heading {
+  font: 14px/1.5 'Helvetica' sans-serif;
+}
 .highlight {
   background-color: #ffc;
 }
