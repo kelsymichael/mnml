@@ -30,22 +30,21 @@ body {
   max-width: 960px;
   min-wdith: 400px;
   margin: 0 auto;
-  border: 1px solid #000;
   box-sizing: border-box;
 }
 .site-header {
-  background-color: #9bc2f0;
+  background-color: #efefef;
+  box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.15);
 }
 .page-content {
   flex-grow: 1;
-  background-color: #efefef;
 }
 .wrapper {
   display: flex;
   justify-content: center;
 }
 .site-footer {
-  background-color: #b8e986;
+  background-color: #73e1e5;
   display: flex;
 }
 figure {
@@ -53,13 +52,12 @@ figure {
   margin: 0 auto;
   padding: 20px;
 }
-.trigger {
-  border: 1px solid #000;
+a {
+  text-decoration: none;
 }
 .site-title {
   font: 20px/1.5 'Helvetica' sans-serif;
   flex-grow: 1;
-  border: 1px solid #000;
 }
 header {
   display: flex;
@@ -75,9 +73,9 @@ header {
   font: 3.3rem serif;
   font-weight: 900;
   margin: 0.8em;
+  margin-bottom: 0;
   width: 100%;
   max-width: 450px;
-  text-align: center;
 }
 .page-heading {
   padding-top: 2em;
@@ -99,6 +97,7 @@ header {
 }
 .post-meta {
   font: 14px/1.5 'Helvetica' sans-serif;
+  width: 450px;
 }
 .post-header {
   display: flex;
