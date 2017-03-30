@@ -24,14 +24,14 @@ stylus:
 permalink: /:categories/:title
 
 links:
-  - title: about
-    url: /about
   - title: work
     url: /work
   - title: doodles
     url: /doodles
   - title: writing
     url: /writing
+  - title: about
+    url: /about
 
 exclude:
   - node_modules
