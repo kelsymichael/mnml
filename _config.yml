@@ -21,6 +21,18 @@ markdown: kramdown
 stylus:
   path: _stylus
 
+permalink: /:categories/:title
+
+links:
+  - title: about
+    url: /about
+  - title: work
+    url: /work
+  - title: doodles
+    url: /doodles
+  - title: writing
+    url: /writing
+
 exclude:
   - node_modules
   - package.json
