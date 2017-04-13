@@ -21,6 +21,9 @@ markdown: kramdown
 stylus:
   path: _stylus
 
+
+include: ['_pages']
+
 permalink: /:categories/:title
 
 links:
