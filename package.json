@@ -8,7 +8,8 @@
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.4",
     "gulp-shell": "^0.6.3",
-    "gulp-uncss": "^1.0.6"
+    "gulp-uncss": "^1.0.6",
+    "lodash": "^4.17.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

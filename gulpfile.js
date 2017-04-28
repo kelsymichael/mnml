@@ -7,7 +7,10 @@ const minifycss   = require('gulp-clean-css');
 gulp.task('build', shell.task(['jekyll build --watch']));
 
 gulp.task('serve', () => {
-  browserSync.init({server: {baseDir: '_site/'}});
+  browserSync.init({
+    server: {baseDir: '_site/'},
+    port: 4000
+  });
   gulp.watch('_site/**/*.*').on('change', browserSync.reload);
 
 });

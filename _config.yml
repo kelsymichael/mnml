@@ -24,7 +24,6 @@ stylus:
 
 include: ['_pages']
 
-permalink: /:categories/:title
 
 links:
   - title: work
@@ -40,3 +39,6 @@ exclude:
   - node_modules
   - package.json
   - gulpfile.js
+
+# ! can't use permalinks with browsersync at the moment
+# permalink: /:categories/:title
